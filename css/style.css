@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+.content{
+    width: 70%;
+    margin: auto;
+}
+.header{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 5rem 0;
+}
+.icon{
+    color: azure;
+    font-size: 1.5rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;   
+    margin-bottom: 2rem;
+    
+}
+.imfor_material{
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center  
+}
+.imfor{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+.icon_text{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.img{
+width: 35%;
+display: block;
+}
+.text_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.input_infor{
+    margin-left: 1rem;
+}
+.input_infor input{
+border:none  ;
+border-bottom: 0.1rem solid #ccc;
+} 
+.input_header{
+    margin: 2rem;
+}
+.input_infor p 
+{
+    font-size: 1.7rem;
+    margin: 2rem 0 ;
+    font-weight: bolder;
+}
+.input_infor button{
+    background-color: aqua;
+    border:none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 0.3rem;
+    margin-top: 2rem;
+}
+.input_infor button:hover{
+    background-color: red;
+    color: azure;
+}
+.name_email{
+    display: flex;
+}
